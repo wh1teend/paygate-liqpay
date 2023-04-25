@@ -84,7 +84,7 @@ class LiqPay extends AbstractProvider
 	public function validateCallback(CallbackState $state): bool
 	{
 		$state->requestKey = $state->data['order_id'] ?? '';
-		$state->transactionId = $state->input['payment_id'] ?? '';
+		$state->transactionId = $state->data['payment_id'] ?? '';
 
 		if (!empty($state->signature) && $state->data['version'] == 3 && $state->data['action'] == 'pay')
 		{
