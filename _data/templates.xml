@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+  <template type="admin" title="payment_profile_wh1LiqPay" version_id="1" version_string="1"><![CDATA[<xf:textboxrow name="options[public_key]" value="{$profile.options.public_key}"
+	label="{{ phrase('wh1_liqpay_public_key') }}"
+	hint="{{ phrase('required') }}">
+</xf:textboxrow>
+
+<xf:textboxrow name="options[private_key]" value="{$profile.options.private_key}"
+	label="{{ phrase('wh1_liqpay_private_key') }}"
+	hint="{{ phrase('required') }}">
+</xf:textboxrow>]]></template>
+</templates>

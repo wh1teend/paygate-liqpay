@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="wh1_liqpay_private_key" version_id="1" version_string="1"><![CDATA[Private key]]></phrase>
+  <phrase title="wh1_liqpay_public_key" version_id="1" version_string="1"><![CDATA[Public key]]></phrase>
+  <phrase title="wh1_liqpay_you_must_provide_all_data" version_id="1" version_string="1"><![CDATA[You must provide all data]]></phrase>
+</phrases>
